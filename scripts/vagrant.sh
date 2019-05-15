@@ -1,4 +1,14 @@
+# Log activity.
+
+echo "==============================================================================="
+echo "vagrant.sh"
+echo "==============================================================================="
+
+# Vagrant-specific configuration.
+
 date > /etc/vagrant_box_build_time
+
+# SSH keys.
 
 mkdir -pm 700 /home/vagrant/.ssh
 curl -L https://raw.githubusercontent.com/mitchellh/vagrant/master/keys/vagrant.pub -o /home/vagrant/.ssh/authorized_keys

@@ -1,4 +1,4 @@
-# packer-centos-7.2
+# packer-demo
 
 ## Overview
 
