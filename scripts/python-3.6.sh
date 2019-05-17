@@ -15,3 +15,5 @@ yum -y install \
 # Enable Python 3.6.
 
 scl enable rh-python36 bash
+
+echo "=== Python 3.6 installed and enabled =========================================="
