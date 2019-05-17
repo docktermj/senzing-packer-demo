@@ -7,13 +7,11 @@ echo "==========================================================================
 # Yum installs.
 
 yum -y install \
-    centos-release-scl
+    python36u \
+    python36u-pip
 
-yum -y install \
-    rh-python36
+# Make softlinks
 
-# Enable Python 3.6.
-
-scl enable rh-python36 bash
-
-echo "=== Python 3.6 installed and enabled =========================================="
+ln -sf /usr/bin/pip3.6 /usr/bin/pip
+ln -sf /usr/bin/python3.6 /usr/bin/python
+ln -sf /usr/bin/python3.6 /usr/bin/python3
