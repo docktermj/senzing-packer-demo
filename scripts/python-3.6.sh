@@ -12,6 +12,6 @@ yum -y install \
 
 # Make softlinks
 
-ln -sf /usr/bin/pip3.6 /usr/bin/pip
-ln -sf /usr/bin/python3.6 /usr/bin/python
-ln -sf /usr/bin/python3.6 /usr/bin/python3
+ln -sf /usr/bin/pip3.6    /usr/local/bin/pip
+ln -sf /usr/bin/python3.6 /usr/local/bin/python
+ln -sf /usr/bin/python3.6 /usr/local/bin/python3

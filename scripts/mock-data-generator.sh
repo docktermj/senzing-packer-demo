@@ -30,4 +30,4 @@ mv ${GIT_REPOSITORY_DIR}/${SENZING_SCRIPT} /usr/local/bin/
 
 # Cleanup.
 
-# rm -rf ${GIT_REPOSITORY_DIR}
+rm -rf ${GIT_REPOSITORY_DIR}
