@@ -92,8 +92,6 @@
           "scripts/vagrant.sh",
           "scripts/vmware.sh",
           "scripts/yum-installs.sh",
-          "scripts/python-3.6.sh",
-          "scripts/senzing.sh",
           "scripts/db2.sh",
           "scripts/mysql.sh",
           "scripts/postgresql.sh",
@@ -102,8 +100,10 @@
           "scripts/mysql-client.sh",
           "scripts/postgresql-client.sh",
           "scripts/rabbitmq.sh",
+          "scripts/python-3.6.sh",
           "scripts/mock-data-generator.sh",
           "scripts/stream-loader.sh",
+          "scripts/senzing.sh",
           "scripts/cleanup.sh"
         ]
       }
